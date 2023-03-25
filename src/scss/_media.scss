@@ -1,0 +1,391 @@
+@media (max-width: 1200px) {
+    .catalog {
+        &_block {
+            justify-content: space-around;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .slider {
+        .next_button {
+            right: 0px;
+        }
+        .prev_button {
+            left: 0px;
+        }
+        .slides {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .sm_hide {
+        display: none;
+    }
+    .lg_hide {
+        display: block;
+        margin-left: 57px;
+    }
+    .container {
+        max-width: none;
+    }
+    .order_consultation {
+    width: 250px;
+    height: 45px;
+    }
+    .promo {
+        padding: 21px 0;
+        .pulse {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            &_header {
+                display: block;
+                font-size: 36px;
+                max-width: 60%;
+                
+            }
+            &_subheader {
+                font-size: 20px;
+            }
+        }
+            .icon {
+                margin-left: 30px;
+            }
+    }
+    .advantages {
+        padding: 50px 0 58px 0;
+        &_icons {
+            margin-top: 45px;
+            .icon {
+                width: 30%;
+            }
+        }
+    }
+    .consultation {
+        padding: 70px 0 62px 0;
+        &_header {
+            font-size: 30px;
+        }
+    }
+    .slider {
+        .next_button {
+            right: 30px;
+        }
+        .prev_button {
+            left: 30px;
+        }
+        .slides {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 80%;
+            }
+        }
+    }
+    .catalog {
+        &_buttons {
+            button {
+                padding-top: auto;
+                padding-bottom: auto;
+                width: 33%;
+                img {
+                    width: 100%;
+                }
+                a {
+                    height: 40%;
+                    font-size: 100%;
+                }
+            }
+
+        }
+    }
+    .reviews {
+        padding-top: 73px;
+        &_wrapper {
+            .person {
+                &_information {
+                    left: 180px;
+                    max-width: 70%;
+                }
+                .round {
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+        }
+    }
+    footer {
+        .footer_information {
+            width: 360px;
+            height: 170px;
+            .address {
+                font-size: 15px;
+                padding-top: 20px;
+            }
+            .phone {
+                font-size: 15px;
+                margin-top: 20px;
+            }
+            .social {
+                margin-top: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .lg_hide {
+        display: none;
+    }
+    .header {
+        font-size: 15px;
+    }
+    .promo {
+        padding: 10px 0 30px 0;
+        min-height: 400px;
+        &_head {
+            flex-wrap: wrap;
+            .logo {
+                width: 40%;
+                img {
+                    width: 100%;
+                }
+
+            }
+            .phone_block {
+                .phone {
+                    display: flex;
+                    align-items: top;
+                    justify-content: right;
+                    a {
+                        font-size: 10px;
+                    }
+                }
+                .official_button {
+                    width: 100px;
+                    height: 23px;
+                    font-size: 8px;
+                }
+            }
+        }
+        .pulse {
+            margin-top: 35px;
+            &_header {
+                font-size: 22px;
+            }
+            &_subheader {
+                font-size: 15px;
+            }
+        }
+        &_icons {
+            margin-top: 30px;
+            margin-right: 0;
+            display: flex;
+            justify-content: center;
+            .icon {
+                margin: 0;
+                img {
+                    width: 30px;
+                }
+                &_descr {
+                    margin-top: 10px;
+                    font-size: 10px;
+                }
+            }
+        }
+        &_link {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .order_consultation {
+                width: 50%;
+                height: 40px;
+                font-size: 60%;
+            }
+            .catalog {
+                display: block;
+                font-size: 10px;
+                padding: 0 20px;
+                a {
+                    font-size: 10px;
+                }
+
+            }
+        }
+    }
+    .advantages {
+        min-height: 300px;
+        padding: 30px 0 30px 0;
+        &_icons {
+            margin-top: 15px;
+            .icon {
+                img {
+                    height: 40px;
+                    width: 40px;
+                    margin-bottom: 10px;
+                }
+                .adv_header {
+                    font-size: 10px;
+                }
+                .adv_descr {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .consultation {
+        min-height: 360px;
+        padding: 30px 0 30px 0;
+        &_header {
+            font-size: 15px;
+        }
+        .form_header {
+            margin: 30px 0 15px 0;
+            font-size: 15px;
+        }
+        form {
+            input {
+                margin-bottom: 10px;
+                padding: 5px;
+                width: 80%;
+                height: 30px;
+            }
+            .order_consultation {
+                height: 30px;
+                width: 55%;
+                font-size: 10px;
+            }
+        }
+    }
+    .slider {
+        padding: 30px 0;
+        .prev_button {
+            display: none;
+        }
+        .next_button {
+            display: none;
+        }
+        .slides {
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .catalog {
+        &_buttons {
+            margin-top: 0px;
+            button {
+                a {
+                    padding-top: 5px;
+                    font-size: 9px;
+                    color: black;
+                }
+            }
+        }
+        &_block {
+            margin-top: 0;
+            img {
+                width: 40%;
+                margin-bottom: 10px;
+            }
+            &_header {
+                font-size: 12px;
+            }
+            &_subheader {
+                font-size: 10px;
+                padding: 10px 0;
+            }
+            .detailed {
+                font-size: 10px;
+            }
+            .dividor {
+                margin-top: 5px;
+            }
+            .buy {
+                padding-top: 5px;
+                .price {
+                    .fool_price {
+                        font-size: 12px;
+                    }
+                    .low_price {
+                        font-size: 14px;
+                    }
+                }
+            }
+            &_item {
+                height: 335px;
+            }
+        }
+    }
+    .reviews {
+        padding: 30px 0 20px 0;
+        min-height: 100%;
+        &_wrapper {
+            padding: 20px 0;
+            .person {
+                margin: 0;
+                min-height: 150px;
+                &_information {
+                    min-height: 100%;
+                    left: 100px;
+                    .name {
+                        font-size: 10px;
+                    }
+                    .marafons {
+                        font-size: 9px;
+                        margin: 10px 0 15px 0;
+                    }
+                    .message {
+                        font-size: 8px;
+                    }
+                }
+                .round {
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    footer {
+        .footer_information {
+            width: 50%;
+            height: 100px;
+            .address {
+                font-size: 8px;
+                padding-top: 10px;
+            }
+            .phone {
+                font-size: 9px;
+                margin-top: 10px;
+            }
+            .social {
+                margin-top: 10px;
+                &_round {
+                    width: 20px;
+                    height: 20px;
+                    margin: 0 5px;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0;
+                        img {
+                            width: 6px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
